@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Magic Downloader</string>
+    <string name="nav_download">التنزيل</string>
+    <string name="nav_audio_tools">الأدوات الصوتية</string>
+    <string name="nav_history">السجل</string>
+    <string name="settings">الإعدادات</string>
+
+    <!-- شاشة الترحيب -->
+    <string name="welcome_title">مرحباً بك في Magic Downloader</string>
+    <string name="welcome_subtitle">لتنزيل الوسائط المسموح بها وتعديل الصوتيات مباشرة على جهازك.</string>
+    <string name="welcome_disclaimer_title">إقرار الاستخدام المسؤول وحقوق النشر</string>
+    <string name="welcome_disclaimer_body">هذا التطبيق مخصّص لتنزيل المحتوى المسموح به أو المملوك لك أو المرخّص لإعادة الاستخدام فقط. أنت وحدك المسؤول عن احترام حقوق النشر والالتزام بشروط استخدام كل منصة.</string>
+    <string name="welcome_accept">أوافق وأفهم — متابعة</string>
+
+    <!-- شاشة التنزيل -->
+    <string name="url_hint">الصق رابط الفيديو أو قائمة التشغيل…</string>
+    <string name="paste">لصق</string>
+    <string name="clear">مسح</string>
+    <string name="fetch_info">جلب التفاصيل</string>
+    <string name="clipboard_detected">تم اكتشاف رابط في الحافظة — اضغط للصق</string>
+    <string name="format_title">الصيغة</string>
+    <string name="format_video_mp4">فيديو (MP4)</string>
+    <string name="format_audio_mp3">صوت (MP3)</string>
+    <string name="format_audio_m4a">صوت (M4A)</string>
+    <string name="quality_title">الجودة</string>
+    <string name="bitrate_title">معدل البت</string>
+    <string name="playlist_items">عناصر قائمة التشغيل (%1$d)</string>
+    <string name="select_all">تحديد الكل</string>
+    <string name="deselect_all">إلغاء الكل</string>
+    <string name="selected_count">تم تحديد %1$d</string>
+    <string name="start_download">بدء التنزيل</string>
+    <string name="download_queued">تمت الإضافة إلى قائمة التنزيل</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="download_channel_name">تنزيلات Magic Downloader</string>
+
+    <!-- الأخطاء -->
+    <string name="error_invalid_url">الرابط غير صالح. تأكد من إدخال رابط يبدأ بـ http أو https.</string>
+    <string name="error_no_internet">لا يوجد اتصال بالإنترنت. تحقّق من الشبكة وحاول مجدداً.</string>
+    <string name="error_private_content">هذا المحتوى خاص أو مقيّد أو غير متاح للتنزيل.</string>
+    <string name="error_insufficient_storage">لا توجد مساحة تخزين كافية على جهازك.</string>
+    <string name="error_extraction_failed">تعذّر جلب معلومات الوسائط: %1$s</string>
+
+    <!-- السجل والمشغّل -->
+    <string name="search_history">ابحث في السجل…</string>
+    <string name="sort">ترتيب</string>
+    <string name="sort_newest">الأحدث</string>
+    <string name="sort_size">الأكبر حجماً</string>
+    <string name="sort_name">الاسم</string>
+    <string name="filter_all">الكل</string>
+    <string name="filter_video">فيديو</string>
+    <string name="filter_audio">صوت</string>
+    <string name="history_empty">لا توجد تنزيلات حتى الآن.</string>
+    <string name="play">تشغيل</string>
+    <string name="share">مشاركة</string>
+    <string name="open_folder">فتح</string>
+    <string name="delete">حذف</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="cancel">إلغاء</string>
+    <string name="clear_history">مسح السجل</string>
+    <string name="clear_history_confirm">هل تريد مسح جميع العناصر من سجل التنزيلات؟</string>
+    <string name="delete_selected_title">حذف المحدد</string>
+    <string name="delete_selected_message">هل تريد حذف %1$d عنصر محدد من السجل؟</string>
+    <string name="also_delete_files">حذف الملفات من الجهاز أيضاً</string>
+    <string name="playback_speed">سرعة التشغيل</string>
+    <string name="close">إغلاق</string>
+    <string name="save">حفظ</string>
+
+    <!-- الأدوات الصوتية -->
+    <string name="audio_trim_tab">قص الصوت</string>
+    <string name="audio_merge_tab">دمج الصوت</string>
+    <string name="pick_from_downloads">من التنزيلات</string>
+    <string name="pick_from_device">من الجهاز</string>
+    <string name="no_audio_downloads">لا توجد ملفات صوتية مكتملة في السجل بعد.</string>
+    <string name="trim_select_hint">اختر ملفاً صوتياً من التنزيلات أو من ذاكرة الجهاز لبدء القص.</string>
+    <string name="merge_select_hint">أضف ملفين صوتيين على الأقل لترتيبهما وقصهما ودمجهما.</string>
+    <string name="start_time_label">البداية (دقيقة:ثانية.ملّي)</string>
+    <string name="end_time_label">النهاية (دقيقة:ثانية.ملّي)</string>
+    <string name="preview_selection">معاينة المقطع</string>
+    <string name="stop_preview">إيقاف المعاينة</string>
+    <string name="fade_in_sec">تلاشي البداية (Fade In): %1$.1f ث</string>
+    <string name="fade_out_sec">تلاشي النهاية (Fade Out): %1$.1f ث</string>
+    <string name="output_file_name">اسم الملف الناتج</string>
+    <string name="trim_and_save">قص وحفظ</string>
+    <string name="trim_clip">قص المقطع</string>
+    <string name="transition_mode">الانتقال بين المقاطع</string>
+    <string name="transition_none">مباشر</string>
+    <string name="transition_crossfade">تلاشي متداخل (Crossfade)</string>
+    <string name="transition_gap">فاصل صامت</string>
+    <string name="transition_duration">مدة الانتقال: %1$.1f ث</string>
+    <string name="merge_and_save">دمج وحفظ</string>
+    <string name="processing_audio">جارٍ معالجة الصوت… %1$d%%</string>
+    <string name="audio_saved_to_history">تم حفظ "%1$s" وإضافته تلقائياً للسجل.</string>
+    <string name="processing_cancelled">تم إلغاء معالجة الصوت.</string>
+
+    <!-- الإعدادات -->
+    <string name="setting_save_folder">مجلد الحفظ الافتراضي</string>
+    <string name="setting_default_quality">الجودة الافتراضية للفيديو</string>
+    <string name="setting_wifi_only">التنزيل عبر Wi-Fi فقط</string>
+    <string name="setting_max_concurrent">التنزيلات المتزامنة: %1$d</string>
+    <string name="setting_theme">المظهر</string>
+    <string name="setting_language">اللغة</string>
+    <string name="setting_update_ytdlp">تحديث مكتبة yt-dlp</string>
+</resources>

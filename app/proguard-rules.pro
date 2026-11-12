@@ -1,0 +1,4 @@
+-keep class com.yausername.** { *; }
+-keep class com.arthenica.ffmpegkit.** { *; }
+-dontwarn com.yausername.**
+-dontwarn com.arthenica.ffmpegkit.**

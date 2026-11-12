@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Magic Downloader</string>
+    <string name="nav_download">Download</string>
+    <string name="nav_audio_tools">Audio Tools</string>
+    <string name="nav_history">History</string>
+    <string name="settings">Settings</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Welcome to Magic Downloader</string>
+    <string name="welcome_subtitle">Download permitted media and edit audio on your device.</string>
+    <string name="welcome_disclaimer_title">Responsible Use &amp; Copyright Notice</string>
+    <string name="welcome_disclaimer_body">Magic Downloader is intended strictly for downloading content you own, have permission to save, or that is licensed for reuse. You are solely responsible for respecting copyright laws and the terms of service of each platform.</string>
+    <string name="welcome_accept">I Understand &amp; Continue</string>
+
+    <!-- Download Screen -->
+    <string name="url_hint">Paste media or playlist link…</string>
+    <string name="paste">Paste</string>
+    <string name="clear">Clear</string>
+    <string name="fetch_info">Fetch Info</string>
+    <string name="clipboard_detected">Link found in clipboard — Tap to paste</string>
+    <string name="format_title">Format</string>
+    <string name="format_video_mp4">Video (MP4)</string>
+    <string name="format_audio_mp3">Audio (MP3)</string>
+    <string name="format_audio_m4a">Audio (M4A)</string>
+    <string name="quality_title">Quality</string>
+    <string name="bitrate_title">Bitrate</string>
+    <string name="playlist_items">Playlist Items (%1$d)</string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Deselect All</string>
+    <string name="selected_count">%1$d selected</string>
+    <string name="start_download">Start Download</string>
+    <string name="download_queued">Added to download queue</string>
+    <string name="retry">Retry</string>
+    <string name="download_channel_name">Magic Downloader Downloads</string>
+
+    <!-- Errors -->
+    <string name="error_invalid_url">Please enter a valid http/https URL.</string>
+    <string name="error_no_internet">No internet connection. Check your network and try again.</string>
+    <string name="error_private_content">This content is private, age-restricted, or unavailable.</string>
+    <string name="error_insufficient_storage">Not enough free storage space on your device.</string>
+    <string name="error_extraction_failed">Could not fetch media info: %1$s</string>
+
+    <!-- History & Player -->
+    <string name="search_history">Search downloads…</string>
+    <string name="sort">Sort</string>
+    <string name="sort_newest">Newest first</string>
+    <string name="sort_size">Largest size</string>
+    <string name="sort_name">Name (A–Z)</string>
+    <string name="filter_all">All</string>
+    <string name="filter_video">Video</string>
+    <string name="filter_audio">Audio</string>
+    <string name="history_empty">No downloads yet.</string>
+    <string name="play">Play</string>
+    <string name="share">Share</string>
+    <string name="open_folder">Open</string>
+    <string name="delete">Delete</string>
+    <string name="pause">Pause</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear_history">Clear History</string>
+    <string name="clear_history_confirm">Remove all items from download history?</string>
+    <string name="delete_selected_title">Delete Selected</string>
+    <string name="delete_selected_message">Delete %1$d selected item(s) from history?</string>
+    <string name="also_delete_files">Also delete files from device</string>
+    <string name="playback_speed">Playback Speed</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+
+    <!-- Audio Tools -->
+    <string name="audio_trim_tab">Trim Audio</string>
+    <string name="audio_merge_tab">Merge Audio</string>
+    <string name="pick_from_downloads">From Downloads</string>
+    <string name="pick_from_device">From Device</string>
+    <string name="no_audio_downloads">No completed audio downloads yet.</string>
+    <string name="trim_select_hint">Pick an audio file from Downloads or your device to start trimming.</string>
+    <string name="merge_select_hint">Add at least two audio files to reorder, trim, and merge them.</string>
+    <string name="start_time_label">Start (mm:ss.SSS)</string>
+    <string name="end_time_label">End (mm:ss.SSS)</string>
+    <string name="preview_selection">Preview Selection</string>
+    <string name="stop_preview">Stop Preview</string>
+    <string name="fade_in_sec">Fade In: %1$.1f s</string>
+    <string name="fade_out_sec">Fade Out: %1$.1f s</string>
+    <string name="output_file_name">Output file name</string>
+    <string name="trim_and_save">Trim &amp; Save</string>
+    <string name="trim_clip">Trim clip</string>
+    <string name="transition_mode">Transition</string>
+    <string name="transition_none">Direct</string>
+    <string name="transition_crossfade">Crossfade</string>
+    <string name="transition_gap">Silence Gap</string>
+    <string name="transition_duration">Transition duration: %1$.1f s</string>
+    <string name="merge_and_save">Merge &amp; Save</string>
+    <string name="processing_audio">Processing audio… %1$d%%</string>
+    <string name="audio_saved_to_history">Saved "%1$s" and added to History.</string>
+    <string name="processing_cancelled">Audio processing cancelled.</string>
+
+    <!-- Settings -->
+    <string name="setting_save_folder">Default Save Folder</string>
+    <string name="setting_default_quality">Default Video Quality</string>
+    <string name="setting_wifi_only">Download over Wi-Fi only</string>
+    <string name="setting_max_concurrent">Concurrent downloads: %1$d</string>
+    <string name="setting_theme">Theme</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_update_ytdlp">Update yt-dlp Engine</string>
+</resources>
