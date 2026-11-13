@@ -8,6 +8,7 @@ on:
       - '**/*.kt'
       - '**/*.kts'
       - 'gradle/**'
+      - '**/*.toml'
       - '.github/workflows/build-apk.yml'
 
 permissions:
